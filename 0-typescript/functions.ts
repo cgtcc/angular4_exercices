@@ -23,4 +23,16 @@ function getName(firstName: string, lastName: string): string {
     return firstName + ' ' + lastName
 
 }
-console.log(getName('Code', 'Coaster'))
+console.log(getName('Code', 'Coaster'));
+
+
+
+function nil(): false {
+    return false
+}
+
+function nilWithString(name: string): string {
+    return null + name
+}
+
+console.log(nil + ' ' + nilWithString('Coaster'))

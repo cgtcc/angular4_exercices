@@ -17,3 +17,10 @@ function getName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 console.log(getName('Code', 'Coaster'));
+function nil() {
+    return false;
+}
+function nilWithString(name) {
+    return null + ' \n' + name;
+}
+console.log(nil() + ' \n ' + nilWithString('Coaster'));
