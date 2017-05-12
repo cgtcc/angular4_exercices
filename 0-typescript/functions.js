@@ -24,7 +24,7 @@ function getName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 
-console.log(getName('Code', 'Coaster'));
+document.currentScript.insertAdjacentHTML('beforeBegin', getName('Code', 'Coaster'));
 
 
 
