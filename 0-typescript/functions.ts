@@ -17,3 +17,10 @@ var mySum = function (num1: any, num2: any): number {
     return num1 + num2;
 }
 console.log(mySum(10, 5))
+
+
+function getName(firstName: string, lastName: string): string {
+    return firstName + ' ' + lastName
+
+}
+console.log(getName('Code', 'Coaster'))
