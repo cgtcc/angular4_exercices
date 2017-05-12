@@ -23,15 +23,18 @@ function getName(firstName: string, lastName: string): string {
     return firstName + ' ' + lastName
 
 }
-console.log(getName('Code', 'Coaster'));
+
+
+var curScriptElement = document.currentScript;
+document.currentScript.insertAdjacentHTML('beforeBegin', getName('Code', 'Coaster'));
 
 
 
-function nil(): false {
+function nil1(): false {
     return false
 }
 
-function nilWithString(name: string): string {
+function nilWithString1(name: string): string {
     return null + name
 }
 
