@@ -23,5 +23,5 @@ numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 booleanArray = [true, true, false, false, true];
 strNumTuple = ['Clef 1', 1000];
 //output
-document.write(myString + '<br />' + myNum + '<br />' + myBool + '<br />' + myVar + '<br />' +
-    stringArray + '<br />' + numberArray + '<br />' + booleanArray + '<br/>' + strNumTuple);
+console.log(myString + myNum + myBool + myVar +
+    stringArray + numberArray + booleanArray + strNumTuple);

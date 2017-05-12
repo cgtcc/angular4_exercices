@@ -31,8 +31,7 @@ strNumTuple = ['Clef 1', 1000]
 
 //output
 
-document.write(myString + '<br />' + myNum + '<br />' + myBool + '<br />' + myVar + '<br />' +
-    stringArray + '<br />' + numberArray + '<br />' + booleanArray + '<br/>' + strNumTuple
-
+console.log(myString + myNum + myBool + myVar +
+    stringArray + numberArray + booleanArray + strNumTuple
 )
 
