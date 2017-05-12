@@ -1,4 +1,4 @@
-//console.log('test');
+console.log('***TYPED VARIABLES*****');
 //typed variables declaration
 var myString;
 var myNum;

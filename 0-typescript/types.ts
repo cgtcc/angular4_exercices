@@ -1,4 +1,4 @@
-//console.log('test');
+console.log('***TYPED VARIABLES*****')
 
 //typed variables declaration
 
@@ -33,9 +33,9 @@ var myUndefined: undefined = null
 var myVoid: void = undefined
 var myNull: null = void
 
-//output
+    //output
 
-console.log(myString + myNum + myBool + myVar +
-    stringArray + numberArray + booleanArray + strNumTuple
-)
+    console.log(myString + myNum + myBool + myVar +
+        stringArray + numberArray + booleanArray + strNumTuple
+    )
 
