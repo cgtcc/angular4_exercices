@@ -24,4 +24,4 @@ function nil1() {
 function nilWithString1(name) {
     return null + name;
 }
-console.log(nil + ' ' + nilWithString('Coaster'));
+console.log(nil1 + ' ' + nilWithString1('Coaster'));
