@@ -7,7 +7,7 @@ function getSum(num1: number, num2: number): number {
 
 console.log(getSum(Math.PI, Math.sqrt(100)))
 
-var mySum = function (num1: any, num2: any): number {
+let mySum = function (num1: any, num2: any): number {
     if (typeof num1 == 'string') {
         num1 = parseInt(num1)
     }
@@ -25,7 +25,7 @@ function getName(firstName: string, lastName: string): string {
 }
 
 
-var curScriptElement = document.currentScript;
+let curScriptElement = document.currentScript;
 document.currentScript.insertAdjacentHTML('beforeBegin', getName('Code', 'Coaster'));
 
 
