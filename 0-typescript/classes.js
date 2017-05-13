@@ -19,4 +19,15 @@ var Car = (function () {
 var car = new Car(5);
 car.accelerate();
 car.getSpeed();
-console.log(Car.numberOfWheels);
+console.log(Car.numberOfWheels());
+var Person = (function () {
+    function Person(hairColor) {
+        this.hairColor = hairColor || '';
+    }
+    Person.prototype.getAge = function () {
+        console.log(this.age);
+    };
+    return Person;
+}());
+var you = new Person('blue');
+you.getAge();

@@ -38,4 +38,4 @@ function nilWithString1(name: string): string {
     return null + name
 }
 
-console.log(nil1 + ' ' + nilWithString1('Coaster'))
+console.log(nil1() + ' ' + nilWithString1('Coaster'))

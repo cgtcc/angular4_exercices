@@ -30,4 +30,21 @@ let car = new Car(5)
 car.accelerate()
 car.getSpeed()
 
-console.log(Car.numberOfWheels)
+console.log(Car.numberOfWheels())
+
+class Person {
+    age: number;
+    private hairColor: string;
+
+
+    constructor(hairColor: string) {
+        this.hairColor = hairColor || '';
+    }
+
+    getAge(): void {
+        console.log(this.age)
+    }
+}
+
+let you = new Person('blue')
+you.getAge();
